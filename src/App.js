@@ -336,11 +336,15 @@ function App() {
           </div>
 
           {/* PROJECTS */}
-          <div class="container mt-5" id="project">
+          <div class="projects container mt-5" id="project">
             <div class="row mt-lg-5">
               <h1 class="fw-bold text-center">Projects</h1>
 
-              <div class=" col-md-6 col-lg-3  mt-5 ">
+              <div
+                class=" col-md-6 col-lg-3  mt-5 "
+                data-aos="fade-up"
+                data-aos-duration="400"
+              >
                 <div class="card">
                   <img src={p1} class="card-img-top " alt="..." />
                   <div class="card-body">
@@ -361,7 +365,11 @@ function App() {
                 </div>
               </div>
 
-              <div class="col-md-6 col-lg-3  mt-5">
+              <div
+                class="col-md-6 col-lg-3  mt-5"
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
                 <div class="card">
                   <img src={p2} class="card-img-top" alt="..." />
                   <div class="card-body">
@@ -384,7 +392,11 @@ function App() {
                 </div>
               </div>
 
-              <div class=" col-md-6 col-lg-3 mt-5 ">
+              <div
+                class=" col-md-6 col-lg-3 mt-5 "
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
                 <div class="card">
                   <img src={p3} class="card img" alt="..." />
                   <div class="card-body">
@@ -408,7 +420,11 @@ function App() {
                 </div>
               </div>
 
-              <div class="col-md-6 col-lg-3 mt-5 text-center ">
+              <div
+                class="col-md-6 col-lg-3 mt-5 text-center "
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div class="card">
                   <img src={p4} class="card-img-top" alt="..." />
                   <div class="card-body">
@@ -481,11 +497,15 @@ function App() {
           </div>
 
           {/* CERTIFICATIONS */}
-          <div class="container mt-4" id="certifications">
+          <div class=" certifications container mt-4" id="certifications">
             <div class="row justify-content-center">
               <h1 class="text-center mt-5 fw-bold">Certifications</h1>
 
-              <div class="col-md-6 col-lg-3  mt-4 mt-lg-5 ">
+              <div
+                class="col-md-6 col-lg-3  mt-4 mt-lg-5 "
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
                 <div class="card m-3 m-lg-0">
                   <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-39353cd7-18e6-4efd-a167-0e031b82bd1d.jpg?v=1741668314000">
                     <img src={c1} class="card-img-top " alt="..." />
@@ -497,7 +517,11 @@ function App() {
                 </div>
               </div>
 
-              <div class="col-md-6 col-lg-3  mt-2 mt-lg-5">
+              <div
+                class="col-md-6 col-lg-3  mt-2 mt-lg-5"
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
                 <div class="card m-3 m-lg-0">
                   <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-510becb8-4aa4-4570-8e01-a922c1c73328.jpg?v=1741666755000">
                     <img src={c2} class="card-img-top" alt="..." />
@@ -589,12 +613,16 @@ function App() {
           </div>
 
           {/* CONTACT */}
-          <div class="container mt-5 mt-lg-0 " id="contact">
+          <div class="contact container mt-5 mt-lg-0 " id="contact">
             <div class="row">
               <h1 class="fw-bold text-center ">
                 Contact <span class="text-primary">Me</span>
               </h1>
-              <div class="col-md-6 mt-3 mt-md-5">
+              <div
+                class="col-md-6 mt-3 mt-md-5"
+                data-aos="fade-right"
+                data-aos-duration="700"
+              >
                 <h6>
                   I’m a fresher in web development, and I’m excited to get
                   started! Contact me if you have any questions or
@@ -630,7 +658,11 @@ function App() {
                 <div class="mt-4 text-center"></div>
               </div>
 
-              <div class="col-md-6 mt-5 mt-md-5">
+              <div
+                class="col-md-6 mt-5 mt-md-5"
+                data-aos="fade-left"
+                data-aos-duration="700"
+              >
                 <form>
                   <div class="mb-3">
                     <input

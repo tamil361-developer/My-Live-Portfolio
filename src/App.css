@@ -46,6 +46,18 @@
   overflow-x: hidden;
   overflow-y: hidden;
 }
+.projects{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.certifications{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.contact{
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 
 .skil:hover {
   transform: scale(1.1); /* Zooms the image slightly */
