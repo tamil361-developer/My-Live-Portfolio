@@ -1,5 +1,5 @@
 import "./App.css";
-import me from "./imgs/home/me.jpg";
+import me from "./imgs/home/me.png";
 
 import p1 from "./imgs/project/p1.jpg";
 import p2 from "./imgs/project/p2.jpg";
@@ -19,6 +19,8 @@ import react from "./imgs/tech/react.png";
 
 import c1 from "./imgs/certifications/c1.jpg";
 import c2 from "./imgs/certifications/c2.jpg";
+import c3 from "./imgs/certifications/c3.jpg";
+import c4 from "./imgs/certifications/c4.jpg";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -56,16 +58,10 @@ function App() {
           <nav class="navbar navdiv navbar-expand-lg bg-light sticky-top ">
             <div class="container-fluid">
               <a class="navbar-brand name " href="#">
-                <h3
-                  class="fw-bold text-dark"
-                  data-aos="fade-up"
-                  data-aos-duration="1100"
-                >
-                  Tamil Eniyan S
-                </h3>
+                <h3 class="fw-bold text-dark">Tamil Eniyan S</h3>
               </a>
               <button
-                class="navbar-toggler"
+                class="navbar-toggler d-none d-lg-block"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown"
@@ -275,7 +271,7 @@ function App() {
           </div>
 
           {/* ABOUT */}
-          <div class="about container mt-5 " id="about">
+          <div class="about container mt-lg-5 " id="about">
             <div class="row mt-lg-5">
               <div class="col-lg-3 text-center">
                 <div class="d-none d-lg-block mt-3">
@@ -498,7 +494,7 @@ function App() {
 
           {/* CERTIFICATIONS */}
           <div class=" certifications container mt-4" id="certifications">
-            <div class="row justify-content-center">
+            <div class="row justify-content-center ">
               <h1 class="text-center mt-5 fw-bold">Certifications</h1>
 
               <div
@@ -516,7 +512,21 @@ function App() {
                   </a>
                 </div>
               </div>
-
+              <div
+                class="col-md-6 col-lg-3  mt-2 mt-lg-5"
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
+                <div class="card m-3 m-lg-0">
+                  <a href="">
+                    <img src={c4} class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold"></h5>
+                      <p class="card-text text-primary">click to view</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
               <div
                 class="col-md-6 col-lg-3  mt-2 mt-lg-5"
                 data-aos="fade-up"
@@ -525,6 +535,22 @@ function App() {
                 <div class="card m-3 m-lg-0">
                   <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-510becb8-4aa4-4570-8e01-a922c1c73328.jpg?v=1741666755000">
                     <img src={c2} class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <h5 class="card-title fw-bold"></h5>
+                      <p class="card-text text-primary">click to view</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="col-md-6 col-lg-3  mt-2 mt-lg-5"
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
+                <div class="card m-3 m-lg-0">
+                  <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-058129de-9947-412f-b1da-9bbed4804c00.jpg?v=1742783100000">
+                    <img src={c3} class="card-img-top" alt="..." />
                     <div class="card-body">
                       <h5 class="card-title fw-bold"></h5>
                       <p class="card-text text-primary">click to view</p>
