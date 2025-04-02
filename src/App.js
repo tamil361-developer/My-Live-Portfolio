@@ -61,7 +61,7 @@ function App() {
                 <h3 class="fw-bold text-dark">Tamil Eniyan S</h3>
               </a>
               <button
-                class="navbar-toggler d-none d-lg-block"
+                class="navbar-toggler d-none "
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown"
