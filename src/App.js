@@ -1,6 +1,8 @@
 import "./App.css";
 import me from "./imgs/home/me.png";
 
+import { motion } from "motion/react"
+
 import p1 from "./imgs/project/p1.jpg";
 import p2 from "./imgs/project/p2.jpg";
 import p3 from "./imgs/project/p3.jpg";
@@ -53,7 +55,7 @@ function App() {
             rel="stylesheet"
           />
         </head>
-        <body>
+        <body className="text-white">
           {/* NAVBAR */}
           <nav class="navbar navdiv navbar-expand-lg bg-light sticky-top ">
             <div class="container-fluid">
@@ -152,12 +154,12 @@ function App() {
           </nav>
 
           {/* HOME */}
-          <div class="home container mt-5 " id="home">
+          <div class="home container mt-5   " id="home">
             <div class="row mt-lg-5">
               <div class="col-lg-8">
-                <h3 class="mt-md-4" data-aos="fade-right">
+                <h2 class="mt-md-4" data-aos="fade-right">
                   Hello, It's Me
-                </h3>
+                </h2>
                 <h1
                   class="mt-4 fw-bold"
                   data-aos="fade-right"
@@ -165,11 +167,11 @@ function App() {
                 >
                   Tamil Eniyan
                 </h1>
-                <h2 class="mt-4" data-aos="fade-right" data-aos-duration="500">
+                <h2 class="mt-4 d-flex" data-aos="fade-right" data-aos-duration="500">
                   And I'm a
-                  <span class="text-primary fw-bold developer ms-2">
-                    Python Full Stack Web Developer
-                  </span>
+                  <h1 class="text-primary fw-bold developer ms-4">
+                    Full Stack Web Developer
+                  </h1>
                 </h2>
                 <p
                   class="mt-4 fw-normal"
@@ -181,29 +183,29 @@ function App() {
                   both front-end and back-end development, always striving to
                   improve user experiences.
                 </p>
-                <div data-aos="fade-right" data-aos-duration="1000">
+                <div data-aos="fade-right " data-aos-duration="1000" className="">
                   <span>
                     <a
                       href="https://www.linkedin.com/in/tamileniyan361"
-                      class="text-dark fs-3 "
+                      class="text-white fs-3 "
                     >
                       <i class="fa-brands fa-linkedin-in"></i>
                     </a>
                     <a
                       href="https://github.com/tamil361-developer"
-                      class="text-dark fs-3 ms-4"
+                      class="text-white fs-3 ms-4"
                     >
                       <i class="fa-brands fa-github"></i>
                     </a>
                     <a
                       href="https://www.instagram.com/crazy_boy_0306/profilecard/?igsh=MTNvYXN3eWxtajN1aQ=="
-                      class="text-dark fs-3 ms-4"
+                      class="text-white fs-3 ms-4"
                     >
                       <i class="fa-brands fa-instagram"></i>
                     </a>
                     <a
                       href="https://wa.me/6382402671"
-                      class="text-dark fs-3 ms-4"
+                      class="text-white fs-3 ms-4"
                     >
                       <i class="fa-brands fa-whatsapp"></i>
                     </a>
@@ -223,7 +225,7 @@ function App() {
                   <i class="fa-solid fa-envelope"></i>
                   <a
                     href="mailto:tamileniyan361@gmail.com"
-                    class="text-decoration-none text-dark ms-2 fw-bold"
+                    class="text-decoration-none text-white ms-2 fw-bold"
                   >
                     tamileniyan361@gmail.com
                   </a>
@@ -237,7 +239,7 @@ function App() {
                   <i class="fa-solid fa-phone-volume"></i>
                   <a
                     href="tel:+6382402671"
-                    class="text-decoration-none text-dark ms-2 fw-bold"
+                    class="text-decoration-none text-white ms-2 fw-bold"
                   >
                     6382402671
                   </a>
@@ -271,8 +273,8 @@ function App() {
           </div>
 
           {/* ABOUT */}
-          <div class="about container mt-lg-5 " id="about">
-            <div class="row mt-lg-5">
+          <div class="about container mt-lg-5 text-white" id="about" >
+            <div class="row mt-lg-5" >
               <div class="col-lg-3 text-center">
                 <div class="d-none d-lg-block mt-3">
                   <img
