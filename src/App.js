@@ -1,11 +1,11 @@
 import "./App.css";
-import me from "./imgs/home/me.png";
+import me from "./imgs/home/me2.webp";
 
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 
 import p1 from "./imgs/project/p1.jpg";
 import p2 from "./imgs/project/p2.jpg";
-import p3 from "./imgs/project/p3.jpg";
+/* import p3 from "./imgs/project/p3.jpg"; */
 import p4 from "./imgs/project/p4.jpg";
 
 import bootstrap from "./imgs/tech/bootstrap.png";
@@ -57,29 +57,29 @@ function App() {
         </head>
         <body className="text-white">
           {/* NAVBAR */}
-          <nav class="navbar navdiv navbar-expand-lg bg-light sticky-top ">
+          <nav class="navbar navdiv navbar-expand-lg  sticky-top ">
             <div class="container-fluid">
               <a class="navbar-brand name " href="#">
-                <h3 class="fw-bold text-dark">Tamil Eniyan S</h3>
+                <h3 class="fw-bold text-white">Tamil Eniyan S</h3>
               </a>
               <button
-                class="navbar-toggler d-none "
+                className="navbar-toggler d-none"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <span class="navbar-toggler-icon">
-                  <i class="fa-solid fa-bars"></i>
+                <span className="navbar-toggler-icon">
+                  <i className="fa-solid fa-bars"></i>
                 </span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
+              <div className="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav navlist mb-2 mb-lg-0 ms-auto">
                   <li class="nav-item">
                     <a
-                      class="nav-link me-5 text-dark"
+                      class="nav-link me-5 text-white"
                       aria-current="page"
                       href="#home"
                       data-aos="fade-up"
@@ -90,7 +90,7 @@ function App() {
                   </li>
                   <li class="nav-item me-5">
                     <a
-                      class="nav-link text-dark"
+                      class="nav-link text-white"
                       href="#about"
                       data-aos="fade-up"
                       data-aos-duration="600"
@@ -100,7 +100,7 @@ function App() {
                   </li>
                   <li class="nav-item me-5">
                     <a
-                      class="nav-link text-dark"
+                      class="nav-link text-white"
                       href="#project"
                       data-aos="fade-up"
                       data-aos-duration="700"
@@ -110,7 +110,7 @@ function App() {
                   </li>
                   <li class="nav-item me-5">
                     <a
-                      class="nav-link text-dark"
+                      class="nav-link text-white"
                       href="#education"
                       data-aos="fade-up"
                       data-aos-duration="800"
@@ -120,7 +120,7 @@ function App() {
                   </li>
                   <li class="nav-item me-5">
                     <a
-                      class="nav-link text-dark"
+                      class="nav-link text-white"
                       href="#certifications"
                       data-aos="fade-up"
                       data-aos-duration="900"
@@ -130,7 +130,7 @@ function App() {
                   </li>
                   <li class="nav-item me-5">
                     <a
-                      class="nav-link text-dark"
+                      class="nav-link text-white"
                       href="#technologies"
                       data-aos="fade-up"
                       data-aos-duration="1000"
@@ -140,7 +140,7 @@ function App() {
                   </li>
                   <li class="nav-item me-5">
                     <a
-                      class="nav-link text-dark"
+                      class="nav-link text-white"
                       href="#contact"
                       data-aos="fade-up"
                       data-aos-duration="1100"
@@ -167,14 +167,18 @@ function App() {
                 >
                   Tamil Eniyan
                 </h1>
-                <h2 class="mt-4 d-flex" data-aos="fade-right" data-aos-duration="500">
+                <h2
+                  class="mt-4 d-lg-flex "
+                  data-aos="fade-right"
+                  data-aos-duration="500"
+                >
                   And I'm a
-                  <h1 class="text-primary fw-bold developer ms-4">
+                  <span class="text-primary fw-bold developer ms-1 ms-lg-2">
                     Full Stack Web Developer
-                  </h1>
+                  </span>
                 </h2>
                 <p
-                  class="mt-4 fw-normal"
+                  class="mt-3 fw-normal"
                   data-aos="fade-right"
                   data-aos-duration="1000"
                 >
@@ -183,7 +187,11 @@ function App() {
                   both front-end and back-end development, always striving to
                   improve user experiences.
                 </p>
-                <div data-aos="fade-right " data-aos-duration="1000" className="">
+                <div
+                  data-aos="fade-right "
+                  data-aos-duration="1000"
+                  className="mt-4"
+                >
                   <span>
                     <a
                       href="https://www.linkedin.com/in/tamileniyan361"
@@ -255,7 +263,7 @@ function App() {
                 </div>
               </div>
               <div
-                class=" col-lg-4 text-center mt-4 p-4 mt-md-1 p-md-5"
+                class=" col-lg-4 text-center mt-4 p-5 p-lg-4 mt-md-1 p-md-5"
                 data-aos="fade-left"
                 data-aos-duration="1000"
               >
@@ -273,8 +281,8 @@ function App() {
           </div>
 
           {/* ABOUT */}
-          <div class="about container mt-lg-5 text-white" id="about" >
-            <div class="row mt-lg-5" >
+          <div class="about container mt-lg-5 text-white" id="about">
+            <div class="row mt-lg-5">
               <div class="col-lg-3 text-center">
                 <div class="d-none d-lg-block mt-3">
                   <img
@@ -293,11 +301,11 @@ function App() {
                     About <span class="text-primary">Me</span>
                   </h1>
                   <h3
-                    class="mt-4"
+                    class="mt-4 text-warning"
                     data-aos="fade-left"
                     data-aos-duration="1000"
                   >
-                    Python Full Stack Web Developer
+                    Full Stack Web Developer
                   </h3>
                   <p
                     class="mt-4 "
@@ -339,17 +347,33 @@ function App() {
               <h1 class="fw-bold text-center">Projects</h1>
 
               <div
-                class=" col-md-6 col-lg-3  mt-5 "
+                class=" col-md-6 col-lg-4  mt-5 text-center "
                 data-aos="fade-up"
                 data-aos-duration="400"
               >
-                <div class="card">
-                  <img src={p1} class="card-img-top " alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Social Media Website</h5>
-                    <p class="card-text">
-                      Built a social media platform with user registration,
-                      profile creation, and post-sharing features
+                <div class="card text-dark ">
+                  <img src={p1} class="card-img-top mt-3" alt="..." />
+                  <div class="card-body ">
+                    <h5 class="card-title fw-bold">Notes App</h5>
+                    <a href="https://notesproject-vbq9.onrender.com">
+                      go to website
+                    </a>
+
+                    {/* <p class="card-text  ">
+                      
+                      This Notes App is a full-stack web application that
+                      enables users to securely create, view, edit, and delete
+                      personal notes. The frontend is developed using React and
+                      styled with Bootstrap, ensuring a responsive and modern
+                      user interface. Users can categorize their notes and
+                      filter them by category for better organization. All note
+                      data is managed through a REST API backend, with secure
+                      JWT-based authentication to protect user information. The
+                      app provides real-time feedback for actions like editing
+                      or deleting notes, enhancing the user experience. Overall,
+                      this project demonstrates practical implementation of CRUD
+                      operations, authentication, and category filtering in a
+                      user-friendly environment
                       <p>
                         <span class="fw-bold text-primary">
                           Technologies Used:
@@ -358,21 +382,24 @@ function App() {
                           HTML, CSS, Bootstrap, python, Django, MySql.
                         </span>
                       </p>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
 
               <div
-                class="col-md-6 col-lg-3  mt-5"
+                class="col-md-6 col-lg-4  mt-5 text-center "
                 data-aos="fade-up"
                 data-aos-duration="600"
               >
-                <div class="card">
+                <div class="card text-dark">
                   <img src={p2} class="card-img-top" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title fw-bold">Real Estate Website</h5>
-                    <p class="card-text">
+                    <h5 class="card-title fw-bold mt-3">Ecommerce Website</h5>
+                    <a href="https://ecommercewebsite-frontend-wnqm.onrender.com">
+                      go to website
+                    </a>
+                    {/* <p class="card-text">
                       A platform for
                       <span class="fw-bold ms-2">buying, selling,</span> or
                       <span class="fw-bold ms-2">renting properties.</span>
@@ -385,49 +412,25 @@ function App() {
                           MySql.
                         </span>
                       </p>
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
 
               <div
-                class=" col-md-6 col-lg-3 mt-5 "
-                data-aos="fade-up"
-                data-aos-duration="800"
-              >
-                <div class="card">
-                  <img src={p3} class="card img" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title fw-bold">Restaurant Website</h5>
-                    <p class="card-text ">
-                      A website for
-                      <span class="fw-bold ms-2">
-                        showcasing restaurant menus, online ordering, and
-                        reservations.
-                      </span>
-                    </p>
-                    <p class="fw-bold">
-                      <span class="fw-bold text-primary">
-                        Technologies Used:
-                      </span>
-                      <span class="ms-2">
-                        HTML, CSS, Bootstrap, React, Django, MySQL.
-                      </span>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                class="col-md-6 col-lg-3 mt-5 text-center "
+                class="col-md-6 col-lg-4 mt-5 text-center "
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <div class="card">
+                <div class="card text-dark">
                   <img src={p4} class="card-img-top" alt="..." />
                   <div class="card-body">
-                    <h5 class="card-title fw-bold">Portfolio Website</h5>
-                    <div>
+                    <h5 class="card-title fw-bold mt-3">Portfolio Website</h5>
+                     <a href="https://tamileniyan-my-live-portfolio.onrender.com">
+                      go to website
+                    </a>
+
+                    {/* <div>
                       Designed a personal portfolio to
                       <span class="fw-bold ms-2">
                         showcase my skills and projects
@@ -436,7 +439,7 @@ function App() {
                         with a responsive front-end. Built with React for
                         interactivity and dynamic content.
                       </span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -445,7 +448,7 @@ function App() {
 
           {/* EDUCATIONS */}
           <div class="container mt-5 " id="education">
-            <div class="row mt-lg-5">
+            <div class="row mt-lg-5  ">
               <div class="text-md-center ">
                 <h1 class="fw-bold">Education</h1>
               </div>
@@ -565,72 +568,72 @@ function App() {
 
           {/* SKILLS */}
           <div class="container mt-5 mt-lg-0 p-lg-5" id="technologies">
-            <h1 class="fw-bold text-center">Technologies</h1>
-            <div class="row mt-5 mt-lg-0 p-lg-5">
-              <div class="col-3 col-md-2 p-lg-3 ">
+            <h1 class="fw-bold text-center mt-lg-5">Technologies</h1>
+            <div class="row mt-5 mt-lg-5 p-lg-5 bg-light rounded-3 ">
+              <div class="col-3 col-md-2 p-lg-4  ">
                 <img
                   src={python}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5  shadow rounder skil "
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={django}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5 shadow rounder skil"
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={mysql}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5 shadow rounder skil"
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={html}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5  shadow rounder skil"
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={css}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5   shadow rounder skil"
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={bootstrap}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5  shadow rounder skil"
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={js}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5  shadow rounder skil "
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={react}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5  shadow rounder skil "
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={git}
                   alt=""
                   class="img-fluid p-2 mt-2  p-md-3 p-lg-5  shadow rounder skil"
                 />
               </div>
-              <div class="col-3 col-md-2 p-lg-3">
+              <div class="col-3 col-md-2 p-lg-4">
                 <img
                   src={github}
                   alt=""
@@ -641,8 +644,8 @@ function App() {
           </div>
 
           {/* CONTACT */}
-          <div class="contact container mt-5 mt-lg-0 " id="contact">
-            <div class="row">
+          <div class="contact container mt-5 mt-lg-4 " id="contact">
+            <div class="row ">
               <h1 class="fw-bold text-center ">
                 Contact <span class="text-primary">Me</span>
               </h1>
@@ -656,7 +659,7 @@ function App() {
                   started! Contact me if you have any questions or
                   opportunities.
                 </h6>
-                <div class="mt-3 text-center">
+                <div class="mt-5 text-center">
                   <a
                     href="TAMIL ENIYAN S.pdf"
                     class=" btn btn-primary"
@@ -669,7 +672,7 @@ function App() {
                   <i class="fa-solid fa-envelope"></i>
                   <a
                     href="mailto:tamileniyan361@gmail.com"
-                    class="text-decoration-none text-dark ms-2 fw-bold"
+                    class="text-decoration-none text-white ms-2 fw-bold"
                   >
                     tamileniyan361@gmail.com
                   </a>
@@ -678,7 +681,7 @@ function App() {
                   <i class="fa-solid fa-phone-volume"></i>
                   <a
                     href="tel:+6382402671"
-                    class="text-decoration-none text-dark ms-2 fw-bold"
+                    class="text-decoration-none text-white ms-2 fw-bold"
                   >
                     6382402671
                   </a>
@@ -725,12 +728,12 @@ function App() {
           </div>
 
           {/* FOODER */}
-          <div class="container-fluid fixed-buttom  bg-dark mt-5">
+          <div class="container-fluid sticky-buttom  bg-dark mt-5 p-4">
             <div class="text-center">
               <p class="text-white">
                 &copy; 2025 Tamil Eniyan. All rights reserved.
               </p>
-              <ul>
+              <ul class="list-unstyled justify-content-center">
                 <li>
                   <a href="##">Privacy Policy</a>
                 </li>
