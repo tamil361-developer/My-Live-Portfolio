@@ -34,7 +34,7 @@ function App() {
     AOS.init();
     const timer = setTimeout(() => {
       setShowProject(true);
-    }, 3000);
+    }, 1000);
     return () => clearTimeout(timer);
   }, []);
   return (
@@ -64,7 +64,7 @@ function App() {
             rel="stylesheet"
           />
         </head>
-        
+
         {showProject && (
 
         <body className="text-white">
