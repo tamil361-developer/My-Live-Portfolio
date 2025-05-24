@@ -1,4 +1,5 @@
 import "./App.css";
+import React from "react";
 import me from "./imgs/home/me2.webp";
 
 import { motion } from "motion/react";
@@ -28,6 +29,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 function App() {
   AOS.init();
+  const [showProject, setShowProject] = React.useState(false);
+  React.useEffect(() => {
+    AOS.init();
+    const timer = setTimeout(() => {
+      setShowProject(true);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <div className="App">
       <html lang="en">
@@ -55,6 +64,9 @@ function App() {
             rel="stylesheet"
           />
         </head>
+        
+        {showProject && (
+
         <body className="text-white">
           {/* NAVBAR */}
           <nav class="navbar navdiv navbar-expand-lg  sticky-top ">
@@ -747,6 +759,7 @@ function App() {
             </div>
           </div>
         </body>
+        )}
       </html>
     </div>
   );
