@@ -46,6 +46,8 @@ body {
 .card-body {
   padding: 20px;
   background-color: #fff;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .about {
