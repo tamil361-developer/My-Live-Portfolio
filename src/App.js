@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import me from "./imgs/home/me2.webp";
 
-import { motion } from "motion/react";
+import { color, motion } from "motion/react";
 
 import p1 from "./imgs/project/p1.jpg";
 import p2 from "./imgs/project/p2.jpg";
@@ -37,7 +37,7 @@ function App() {
     AOS.init();
     const timer = setTimeout(() => {
       setShowProject(true);
-    }, 1000);
+    }, 3000);
     return () => clearTimeout(timer);
   }, []);
   return (
@@ -346,7 +346,7 @@ function App() {
                         options={{
                           strings: [
                             "Full Stack Web Developer ...!",
-                            "React Developer ...!",
+                            "React Developer ...!" ,
                             "Python Developer ...!",
                             "Django Developer ...!",
                           ],
@@ -525,7 +525,7 @@ function App() {
                     <span class="text-primary">Master's</span> degree in
                     Mathematics
                   </h6>
-                  <h5>68%</h5>
+                  <h5>65%</h5>
                 </div>
                 <div class="col-md-6  mt-md-5 text-center">
                   <h6 class="fw-bold">2022 - 2024</h6>
