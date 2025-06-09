@@ -69,7 +69,7 @@ function App() {
         </head>
 
         {showProject && (
-          <body className="text-white">
+          <body className="text-white body-bg">
             {/* NAVBAR */}
             <nav class="navbar navdiv navbar-expand-lg  sticky-top ">
               <div class="container-fluid">
