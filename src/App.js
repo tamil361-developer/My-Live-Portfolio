@@ -290,7 +290,7 @@ function App() {
                   <div class="md-text-center ">
                     <a
                       href="TAMIL ENIYAN S.pdf"
-                      class=" btn btn-primary"
+                      class=" btn btn-primary mt-3 mt-lg-0"
                       download="TAMIL ENIYAN S.pdf"
                     >
                       Download Resume
