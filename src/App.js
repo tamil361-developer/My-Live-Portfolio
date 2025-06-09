@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import me from "./imgs/home/me2.webp";
+import me from "./imgs/home/mef.png";
 
 import { color, motion } from "motion/react";
 
@@ -162,6 +162,15 @@ function App() {
                         Contact
                       </a>
                     </li>
+                    <li class="md-text-center  ">
+                    <a
+                      href="TAMIL ENIYAN S.pdf"
+                      class=" btn btn-primary"
+                      download="TAMIL ENIYAN S.pdf"
+                    >
+                      Download Resume
+                    </a>
+                  </li>
                   </ul>
                 </div>
               </div>
@@ -714,7 +723,7 @@ function App() {
             </div>
 
             {/* CONTACT */}
-            <div class="contact container mt-5 mt-lg-4 " id="contact">
+            <div class="contact container mt-5 mt-lg-4  " id="contact">
               <div class="row ">
                 <h1 class="fw-bold text-center ">
                   Contact <span class="text-primary">Me</span>
@@ -798,12 +807,12 @@ function App() {
             </div>
 
             {/* FOODER */}
-            <div class="container-fluid sticky-buttom  bg-dark mt-5 p-4">
+            <div class="container-fluid sticky-buttom  fooder mt-5 p-4">
               <div class="text-center">
-                <p class="text-white">
+                <p class="text-dark fw-bold">
                   &copy; 2025 Tamil Eniyan. All rights reserved.
                 </p>
-                <ul class="list-unstyled justify-content-center">
+                <ul class="list-unstyled justify-content-center ">
                   <li>
                     <a href="##">Privacy Policy</a>
                   </li>
