@@ -37,7 +37,7 @@ function App() {
     AOS.init();
     const timer = setTimeout(() => {
       setShowProject(true);
-    }, 3000);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
   return (

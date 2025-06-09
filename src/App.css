@@ -2,9 +2,10 @@
 .body-bg {
   background-image: url("./imgs/w.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
+ /*  background-repeat: no-repeat; */
   background-attachment: fixed;
   background-position: center;
+  
   overflow-x: hidden;
 }
 
