@@ -177,7 +177,7 @@ function App() {
             </nav>
 
             {/* HOME */}
-            <div class="home container mt-lg-5   " id="home">
+            <div class="home container mt-5   " id="home">
               <div class="row mt-lg-5 ">
                 <div class="col-lg-8  mt-lg-5">
                   <h2 class="mt-md-4  " data-aos="fade-right">
