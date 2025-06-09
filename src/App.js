@@ -196,7 +196,7 @@ function App() {
                     data-aos-duration="500"
                   >
                     And I'm a
-                    <span class="text-primary fw-bold developer ms-3 ms-lg-3">
+                    <span class="text-info fw-bold developer ms-3 ms-lg-3">
                       <Typewriter
                         options={{
                           strings: [
